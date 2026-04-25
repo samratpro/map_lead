@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Browser binary
+browser/
+
+# Scraping artifacts and results
+*.xlsx
+*.xlsx.bak
+checkpoint.json
+track_pagesjaunes.json
+*.png
+
+# Build output (if any)
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
